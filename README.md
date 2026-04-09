@@ -1,16 +1,18 @@
-# logica-programacao
-Estudando lógica de programação com foco em prática e evolução contínua. Registrando minha jornada do zero até o nível profissional, com objetivo de me tornar desenvolvedor e atuar nas áreas de desenvolvimento web e dados.
+# 📘 Lógica de Programação
 
+Repositório com exercícios práticos de lógica de programação utilizando Visualg.
 
-# Minha evolução em lógica de programação
+## 📂 Conteúdo
 
-Estou estudando lógica usando Visualg.
-
-## Exercícios:
+### 🔹 Condições
 - Par ou ímpar
 - Maior número
+- Número positivo/negativo
 - Ano bissexto
-- Estruturas condicionais
+- Média de aluno
 
-## Objetivo:
-Evoluir até conseguir desenvolver sistemas completos.
+## 🎯 Objetivo
+Desenvolver uma base sólida em programação para evoluir para desenvolvimento web e análise de dados.
+
+---
+📈 Repositório em constante evolução
