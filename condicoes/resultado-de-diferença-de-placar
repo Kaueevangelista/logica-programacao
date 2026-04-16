@@ -1,0 +1,32 @@
+algoritmo "resultado de diferença de placar"
+
+var
+  timeA,timeB,diferenca: inteiro
+
+inicio
+
+  escreval("digite o total de gols do primeiro time: ")
+  leia(timeA)
+
+  escreval("digite o total de gols do segundo time: ")
+  leia(timeB)
+
+  escreval("o placar é de ", timeA, " X ", timeB)
+
+  // calculando diferença positiva
+  se(timeA > timeB) entao
+    diferenca <- timeA - timeB
+    senao
+      diferenca <- timeB - timeA
+  fimse
+
+  se(diferenca = 0) entao
+    escreval("Empate")
+    senao se(diferenca <= 3) entao
+      escreval("Partida normal! Diferença de ", diferenca)
+      senao
+        escreval("Goleada! Diferença de ", diferenca)
+    fimse
+  fimse
+
+fimalgoritmo
