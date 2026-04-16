@@ -7,9 +7,11 @@ Repositório com exercícios práticos de lógica de programação utilizando Vi
 ### 🔹 Condições
 - Par ou ímpar
 - Maior número
-- Número positivo/negativo
-- Ano bissexto
 - Média de aluno
+- Criança-esperança-doação
+- viagem
+- aproveitamento-aluno
+-resultado-de-diferença-de-placar
 
 ## 🎯 Objetivo
 Desenvolver uma base sólida em programação para evoluir para desenvolvimento web e análise de dados.
