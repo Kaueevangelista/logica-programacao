@@ -1,0 +1,35 @@
+algoritmo "aproveitamento-aluno"
+
+var
+  media,nota1,nota2: real
+
+inicio
+  escreval("digite sua primeira nota: ")
+  leia(nota1)
+
+  escreval("digite sua segunda nota: ")
+  leia(nota2)
+
+  media <- (nota1+nota2)/2
+
+  se(media >= 9) entao
+    escreval("aproveitamento A")
+    senao se(media >= 7) entao
+      escreval("aproveitamento B")
+        senao se(media >= 5) entao
+          escreval("aproveitamento C")
+            senao
+              escreval("aproveitamento D")
+        fimse
+    fimse
+  fimse
+
+  escreval("----------------------------------")
+  escreval("    Tabela de aproveitamento      ")
+  escreval("----------------------------------")
+  escreval("A = 100%")
+  escreval("B = 80%")
+  escreval("C = 50%")
+  escreval("D = 10%")
+
+fimalgoritmo
